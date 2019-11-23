@@ -310,6 +310,9 @@
     #video-area {
         padding: 70px 0 80px;
     }
+    #video-area-1 {
+        padding: 70px 0 80px;
+    }
     .video-player a {
         font-size: 30px;
         width: 70px;
@@ -524,6 +527,11 @@
     #video-area {
         padding: 70px 0 80px;
     }
+
+    #video-area-1{
+        padding: 70px 0 80px;
+    }
+
     .video-player a {
         font-size: 30px;
         width: 70px;
@@ -765,6 +773,10 @@
         padding-top: 0;
     }
     #video-area {
+        padding: 70px 0 80px;
+    }
+
+    #video-area-1 {
         padding: 70px 0 80px;
     }
     .video-player a {
