@@ -71,50 +71,70 @@
             </div>
         </div>
     </header>
-    <section class="demo-video section-padding-100">
-        <div class="container">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <!-- Welcome Video Area -->
-            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
-                <div class="welcome-video-area wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                            <h3 class="wow fadeInUp" data-wow-delay="0.3s">Generate Molecules</h3>
-                            <div class="form-group">
-                                <label class="control-label mb-1"><p># to Generate</p></label>
-                                <input id="genNum" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
-                            </div>
-                            <form name="myForm" onSubmit = "validateForm();">
-                                <div class="row form-group">
-                                    <div class="col col-md-3">
-                                        <label for="select" class=" form-control-label"><p>Complexity</p></label>
-                                    </div>
-                                    <div class="col-12 col-md-9">
-                                        <select name="select" id="select" class="form-control">
-                                            <option value="0">Please select</option>
-                                            <option value="1">0-10</option>
-                                            <option value="2">10-20</option>
-                                            <option value="3">20-30</option>
-                                        </select>
-                                    </div>
-                                    </div>
-                                    <p>* Takes a couple seconds after you press the button</p>
-                                    <br>
-                            <button type="submit" class="btn dream-btn mt-30 wow fadeInUp" id="btn" onClick="javascript: window.open('catalogue.html?genNum=' + document.getElementById('genNum').value + '&select=' + document.getElementById('select').value);">Generate</button>                            
-                        </form>
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Welcome Video Area -->
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+            <div class="welcome-video-area wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <h3 class="wow fadeInUp" data-wow-delay="0.3s">Generate Molecules</h3>
+                        <div class="form-group">
+                            <label class="control-label mb-1"><p># to Generate</p></label>
+                            <input id="genNum" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
                         </div>
+                        <form name="myForm" onSubmit = "validateForm();">
+                            <div class="row form-group">
+                                <!--<div class="col col-md-3">
+                                    <label for="select" class=" form-control-label"><p>Complexity</p></label>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <select name="select" id="select" class="form-control">
+                                        <option value="0">Please select</option>
+                                        <option value="1">0-10</option>
+                                        <option value="2">10-20</option>
+                                        <option value="3">20-30</option>
+                                    </select>
+                                </div>
+                                </div>-->
+                                <p>* Takes a couple seconds after you press the button</p>
+                                </div>
+                        <button type="submit" class="btn dream-btn mt-30 wow fadeInUp" id="btn" onClick="javascript: window.open('catalogue.html?genNum=' + document.getElementById('genNum').value + '&select=' + document.getElementById('select').value);">Generate</button>                            
+                    </form>
                     </div>
                 </div>
             </div>
+
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        <br>
+        <!-- Welcome Video Area -->
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+            <div class="welcome-video-area wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <h4 class="wow fadeInUp" data-wow-delay="0.3s">Wait... What exactly am I generating?</h4>
+                            <h6 class="wow fadeInUp" data-wow-delay="0.4s">We're creating brand new drug-ready molecules, and showing you how to make them.</h6>
+
+                            <br>
+                                <p class="wow fadeInUp" data-wow-delay="0.5s"><b>Instructions: </b></p>
+                                <p>> Enter the number of generated molecules you want. 
+                                <br>> Wait a couple seconds... (It's working, trust me.)
+                                <br>> The model will output a table which will include the molecular structure in SMILES format and the retro-synthesis pathways (the reactants to produce the molecules) for each generated molecule.</p>
+            </div>
         </div>
-    </section>
+    </div>
+    
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Welcome Area Start ##### -->
-    >
+    
     <!-- ##### Team Area End ##### -->
 
     <!-- ##### Our partners Area start ##### -->
